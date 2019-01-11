@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0
+}
+.cube{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid rgb(155, 155, 155);
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+}
+.aaa{
+    height: 300px;
+    
+}
+.sum{
+    text-align: center;
+    border: 1px solid rgb(155, 155, 155);
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    vertical-align: top;
+}

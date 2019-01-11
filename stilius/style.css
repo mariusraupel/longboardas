@@ -1,0 +1,1287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.linking {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    height: 20px;
+    border-radius: 7px;
+    font-weight: 400;
+    border-top: solid 4px rgb(192, 192, 192);
+    border-left: solid 4px rgb(119, 119, 119);
+    border-bottom: solid 4px rgb(63, 63, 63);
+    display: inline-block;
+    transition: .3s;
+}
+
+.arrow {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 11px;
+    margin-top: 120px;
+    transition: 0.2s;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.rotate90 {
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 7px;
+    left: 7px;
+}
+
+.arrow2 {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 11px;
+    margin-top: 120px;
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.arrow2:active {
+    background-color: rgb(219, 219, 219);
+}
+
+.arrow:active {
+    background-color: rgb(219, 219, 219);
+}
+
+.linking:hover {
+    background-color: rgb(241, 240, 240);
+    color: #888;
+}
+
+body {
+    font-family: Arial;
+}
+
+.onehundered {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+}
+
+.fonai {
+    cursor: pointer;
+    border: 2px solid rgb(148, 148, 148);
+    padding: 7px;
+    margin: 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px rgb(185, 185, 185);
+    user-select: none;
+}
+
+.fonai3 {
+    border: 2px solid rgb(148, 148, 148);
+    padding: 7px;
+    margin: 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px rgb(185, 185, 185);
+}
+
+.search {
+    position: relative;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    transition: .3s;
+}
+
+.fonai:hover {
+    box-shadow: 2px 3px 5px grey;
+}
+
+.fon-img {
+    width: 30px;
+    height: 30px;
+    transition: .3s;
+}
+
+.grip1 {
+    height: 250px;
+    padding: 0px 9px;
+}
+
+.align1 {
+    width: 100%;
+}
+
+.gripnone {
+    height: 246px;
+    width: 56px;
+    border: 2px dashed #a9a9a9;
+    margin: 0px 9px;
+    text-align: center;
+}
+
+.right-done {
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.left-sum {
+    margin-top: 4px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.object1 {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+
+.sum {
+    border-bottom: 2px solid black;
+    margin: 10px 0px 10px 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.toliau {
+    width: 80px;
+    margin-bottom: 3px;
+    padding: 10px;
+    background-color: rgb(201, 235, 50);
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.addprice {
+    padding: 2px 10px;
+    padding-bottom: 15px;
+    color: #777777;
+}
+
+.landing {
+    width: 100%;
+}
+
+.virsustext {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.raide {
+    display: inline-block;
+    transition: .3s;
+}
+
+.raide:hover {
+    font-size: 50px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.arrow-one {
+    margin: 100px 10px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.marnull {
+    margin-right: 0px;
+}
+
+header .container {
+    max-width: 1200px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+
+header .container-black {
+    max-width: 1200px;
+    background-color: rgba(34, 34, 34, 0.336);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-logo {
+    width: 180px;
+    height: 137, 7px;
+}
+
+.bottom-null {
+    height: 445px;
+    width: 115px;
+    border: 2px dashed #a9a9a9;
+    margin: 0px 6px;
+}
+
+.bottom-none {
+    text-align: center;
+    padding-top: 190px;
+}
+
+.arro {
+    margin-top: 210px;
+    width: 20px;
+    height: 20px;
+    padding: 11px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.arro:active {
+    background-color: rgb(212, 211, 211);
+}
+
+.icon-menu {
+    display: flex;
+    float: right;
+    display: none;
+}
+
+.apacia-img {
+    width: 119px;
+    height: 449px;
+    padding: 0px 6px;
+}
+
+.apacia {
+    display: flex;
+    overflow: hidden;
+    margin-top: 3px;
+    transition: 0.35s;
+}
+
+.apacia1 {
+    position: relative;
+    right: 155px;
+    top: 8px;
+    height: 490px;
+    z-index: 3;
+}
+
+.apacia2 {
+    position: relative;
+    right: 152px;
+    top: 8px;
+    height: 484px;
+    z-index: 3;
+    width: 118px;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+body {
+    width: 100%;
+    background: url('../design/wooden-texture-pack-3d-model.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.word-spacing {
+    word-spacing: 4px;
+}
+
+.parameter {
+    margin-bottom: 10px;
+}
+
+.flex0 {
+    display: flex;
+    float: right;
+    margin-left: auto;
+    margin-top: 16px;
+}
+
+.align-menu {
+    padding-left: 310px;
+    padding-top: 35px;
+}
+
+.fourty {
+    width: 480px;
+    padding-top: 10px;
+}
+
+.sixty {
+    width: 60%;
+    display: flex;
+}
+
+.hover-menu {
+    width: 100%;
+    background-color: rgba(75, 75, 75, 0.856);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+}
+
+.hover-option {
+    font-size: 35px;
+    text-align: center;
+    margin: 2px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    color: whitesmoke;
+}
+
+.hover-lift {
+    margin-top: 5vh;
+}
+
+.hover-cancel {
+    float: right;
+    margin-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden1 {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slim {
+    display: none;
+}
+
+.this {
+    cursor: pointer;
+    user-select: none;
+}
+
+.table1 {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.table1 .flex select {
+    height: 20px;
+    width: 150px;
+}
+
+.fl {
+    margin-left: auto
+}
+
+.flex1 {
+    margin-top: 23px;
+    float: right;
+}
+
+.marg {
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.description {
+    font-family: 'Dosis', sans-serif;
+    padding-right: 13px;
+    padding-top: 13px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.description2 {
+    font-family: 'Dosis', sans-serif;
+    padding-left: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.prohibit {
+    width: 35px;
+    height: 35px;
+    padding-top: 100px;
+}
+
+.firsto {
+    width: 78;
+}
+
+.ml {
+    margin-left: auto;
+}
+
+.first-black {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.no-decor {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.cart {
+    width: 15px;
+    height: 15px;
+}
+
+.cart2 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    left: 40px;
+}
+
+.numero {
+    padding: 10px 0px 0px 8px;
+    color: #777777;
+}
+
+.numero2 {
+    padding-left: 8px;
+    padding-bottom: 5px;
+    color: #777777;
+}
+
+a {
+    text-decoration: none;
+}
+
+.number {
+    margin-top: 14px;
+    margin-left: 9px;
+    color: grey;
+}
+
+.menu-main-buttons {
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+.main-buttons {
+    text-shadow: 2px 0px rgba(0, 0, 0, 0.137);
+    padding: 20px 4px 20px 4px;
+    display: inline-block;
+    background-color: rgb(185, 185, 185);
+    width: 30%;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 20px 16px -18px rgba(0, 0, 0, .6);
+    margin: 10px 5px;
+    transition: .3s;
+    text-align: center;
+}
+
+.main-buttons:hover {
+    width: 31%;
+    background-color: rgb(255, 208, 0);
+}
+
+.fbimg {
+    height: 30px;
+    width: 30px;
+    padding-top: 12px;
+}
+
+.fbtext {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.fb {
+    text-shadow: 2px 0px rgba(0, 0, 0, 0.137);
+    display: inline-block;
+    background-color: rgb(90, 180, 253);
+    width: 30%;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 20px 16px -18px rgba(0, 0, 0, .6);
+    margin: 10px 5px;
+    transition: .3s;
+    text-align: center;
+    padding: 0px 4px;
+    vertical-align: top;
+}
+
+.fb:hover {
+    background-color: rgb(0, 140, 255);
+    width: 31%;
+}
+
+.youtube {
+    background-color: rgb(253, 128, 55);
+}
+
+.youtube:hover {
+    background-color: rgb(255, 72, 0);
+    width: 31%;
+}
+
+@media(max-width:945px) {
+    .linking {
+        padding: 4px;
+        font-size: 14px;
+    }
+    .main-logo {
+        width: 160px;
+        height: 122px;
+    }
+    .flex1 {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:590px) {
+    .first-black {
+        padding: 4px;
+        margin: 0px 5px 0px 0px;
+    }
+    .search {
+        width: 20px;
+        height: 20px;
+        top: 5px;
+    }
+}
+
+@media(max-width:670px) {
+    .none4 {
+        display: none
+    }
+    .flex0 {
+        margin-right: 12px;
+    }
+}
+
+@media(max-width:540px) {
+    .flex0 {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .first-black {
+        display: flex;
+        margin: 4px 0px;
+        margin-right: 5px;
+    }
+    .blacks {
+        float: right;
+    }
+    .icon-menu {
+        display: flex;
+    }
+}
+
+@media(max-width:360px) {
+    .no-decor {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:774px) {
+    .smaller {
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+        vertical-align: top;
+    }
+    .main-buttons {
+        display: block;
+        width: 100%;
+        padding: 15px 0px;
+        margin: 10px 0px;
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.233);
+    }
+    .fb {
+        display: block;
+        width: 100%;
+        height: 48px;
+        padding: 0px 0px;
+        margin: 10px 0px;
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.233);
+    }
+    .fbtext {
+        margin-top: 15px
+    }
+    .fbimg {
+        height: 25px;
+        width: 25px;
+        padding-top: 10px;
+    }
+    header .container {
+        padding: 0px 0px;
+    }
+    .menu-main-buttons {
+        padding-top: 3px;
+        padding-bottom: 6px;
+    }
+    .main-buttons:hover {
+        width: 100%;
+        border-radius: 30px;
+    }
+    .fb:hover {
+        width: 100%;
+        border-radius: 30px;
+    }
+}
+
+@media(max-width:440px) {
+    .smaller {
+        display: block;
+        width: 100%
+    }
+}
+
+.savo {
+    background-color: rgb(151, 214, 49);
+}
+
+.text-box p {
+    max-width: 500px;
+}
+
+.text-box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.iconplay {
+    height: 15px;
+    padding-left: 20px;
+}
+
+.droptru {
+    z-index: 5;
+    height: 500px;
+    position: absolute;
+}
+
+.boardpng {
+    height: 500px;
+    position: absolute;
+    z-index: 4;
+}
+
+.boardpng2 {
+    height: 500px;
+    z-index: 4;
+    position: absolute;
+}
+
+.bordo {
+    margin-left: 84px;
+    width: 186px;
+}
+
+.bordo2 {
+    width: 186px;
+}
+
+.minW {
+    min-width: 210px;
+
+}
+
+.info {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 5px;
+}
+
+.setsInfo {
+    font-size: 13px;
+    font-family: 'Dosis', sans-serif;
+    margin: 5px 0px 0px 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.wheels-table {
+    display: inline-block;
+    width: 340px;
+}
+
+.block-right {
+    float: right;
+    margin-top: 10px;
+}
+
+.ratukaiBORDER {
+    margin: 5px 20px 5px 0px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(160, 160, 160);
+    float: right;
+}
+
+.ratukaiIMG {
+    width: 100px;
+    margin-top: 5px;
+}
+
+.hundered {
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    background: rgb(255, 196, 0);
+    margin-top: 10px;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    top: 35px;
+    right: -336px;
+    width: 350px;
+    height: 170px;
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    z-index: 13;
+    opacity: 0;
+    transition: .3s;
+    user-select: none;
+}
+
+.banner-two {
+    top: 78px;
+    height: 120px;
+}
+
+.banner-three {
+    top: 78px;
+    height: 105px;
+}
+.truckImg{
+    width: 180px;
+    height: 120px;
+padding-top: 10px;
+ 
+}
+.banner-four {
+    width: 400px;
+    top: 35px;
+    right: -287px;
+    height: 270px;
+}
+.banner-five {
+    top: 78px;
+    height: 105px;
+}
+
+.banner .text {
+    position: absolute;
+    margin: 10px;
+    top: 0px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.text .bar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 13px 0px;
+}
+
+.bar p {
+    transform: rotate(20deg);
+    width: 25%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.scale-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    color: #888;
+}
+
+.bar .scale {
+    width: 98%;
+    height: 10px;
+    background-image: linear-gradient(to right, rgb(0, 255, 64), rgb(255, 136, 0));
+    margin: auto;
+}
+
+.triangle {
+    margin-top: 10px;
+    margin-left: -24px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.5px 21.7px 12.5px 0;
+    border-color: transparent rgb(160, 160, 160) transparent transparent;
+    z-index: 13;
+}
+
+.triangle2 {
+    margin-top: -21.7px;
+    margin-left: -18px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9.5px 18.7px 9.5px 0;
+    border-color: transparent rgb(255, 255, 255) transparent transparent;
+    z-index: 14;
+}
+
+.hundered-width {
+    width: auto;
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 10px 30px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.isklotine-unit {
+    border: 1px solid #000;
+}
+
+.isklotine-unit2 {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.isklotine-text {
+    min-width: 110px;
+    padding: 1px 20px 1px 10px;
+    border-right: 1px solid #000;
+}
+
+.items {
+    padding-left: 10px;
+}
+
+.zindex2 {
+    padding: 0 34px;
+    height: 500px;
+    z-index: 2;
+}
+
+.zindex3 {
+    padding: 0 34px;
+    height: 500px;
+    width: 120px;
+    z-index: 3;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex3 {
+    margin: auto;
+    width: 85%;
+    overflow: hidden;
+}
+
+.slider {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.slider figure div {
+    width: 20%;
+    float: left;
+}
+
+.slider figure img {
+    width: 100%;
+    float: left;
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slidy infinite;
+}
+
+.exposition {
+    text-align: center;
+    font-style: arial;
+    padding: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.exposition2 {
+    margin-left: 28px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding: 16px;
+    font-weight: 600;
+    color: black;
+    display: inline-block;
+}
+
+.exposition3 {
+    margin-left: 28px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.small-arrow {
+    height: 10px;
+    width: 10px;
+}
+
+.bruksnis {
+    margin: 0 30px;
+    height: 1px;
+    background-color: gray;
+    width: 30%;
+    margin-top: 26px;
+}
+
+.last {
+    background-color: rgb(201, 235, 50);
+    margin-bottom: 10px;
+}
+
+.display {
+    margin-left: auto;
+    margin-right: 5px;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+
+.display:hover {
+    background-color: rgb(216, 212, 212);
+}
+
+.euro-expo {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-top: 13px;
+    margin-right: 33px;
+}
+
+.euro {
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    padding: 6px;
+}
+
+.bru2 {
+    position: relative;
+    left: 64%;
+    bottom: 1px;
+}
+
+.boards-exposition {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.twenty {
+    width: 216px;
+    display: inline-block;
+    font-style: arial;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 10px;
+}
+
+.full-width {
+    height: 230px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.ib {
+    width: 100%;
+    display: inline-block;
+}
+
+.ibb {
+    display: inline-block;
+}
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+    padding-left: 30px;
+    font-weight: 300;
+    color: #000;
+}
+
+.krepselis-button {
+    position: static;
+    top: auto;
+    right: auto;
+    color: white;
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 33px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+    outline: 0;
+    background: rgb(255, 196, 0);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.486);
+    padding-left: 13px;
+    ;
+}
+
+.krepselis-button-change {
+    margin-top: 0px;
+    border-radius: 0px;
+}
+
+.border-twenty {
+    border: 3px solid white
+}
+
+.yellowborder {
+    border: 3px solid rgb(255, 196, 0)
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.arrow-one:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.bgb {
+    background: #222;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.pt2 {
+    padding-top: 10px;
+    border-radius: 8px;
+    border: 3px solid white;
+}
+
+.balls {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.balll {
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(90, 90, 90);
+    display: inline-block;
+    border-radius: 50%;
+    margin: 3px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.balll:hover {
+    background-color: rgb(150, 150, 150);
+}
+
+.of-hid {
+    overflow: hidden;
+    width: 100%;
+}
+
+.about-us {
+    width: 300%;
+    display: flex;
+    transition: .5s;
+}
+
+.blue {
+    background-color: rgb(0, 119, 255);
+}
+
+.green {
+    background-color: rgb(43, 255, 0);
+}
+
+.about-us-box {
+    min-height: 250px;
+    display: flex;
+}
+
+.about-img {
+    padding: 30px 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.overwritewidth {
+    width: 189px;
+    margin-top: 15px;
+}
+
+.twenty2 {
+    display: inline-block;
+    font-style: arial;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.search1 {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    transition: .3s;
+}
+
+.top-exposition {
+    border-radius: 3px;
+}
+
+.reposition {
+    position: relative;
+    right: 150px;
+}
+
+.pad-change {
+    /* padding-right: 13px;
+    padding-top: 13px;
+    padding-left: 30px; */
+    padding: 0px 13px 0px 30px;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%
+    }
+    10% {
+        left: 0%;
+    }
+    12% {
+        left: -100%;
+    }
+    22% {
+        left: -100%;
+    }
+    24% {
+        left: -200%;
+    }
+    34% {
+        left: -200%;
+    }
+    36% {
+        left: -300%;
+    }
+    46% {
+        left: -300%;
+    }
+    48% {
+        left: -400%;
+    }
+    58% {
+        left: -400%;
+    }
+    60% {
+        left: -300%;
+    }
+    70% {
+        left: -300%;
+    }
+    72% {
+        left: -200%;
+    }
+    82% {
+        left: -200%;
+    }
+    84% {
+        left: -100%;
+    }
+    94% {
+        left: -100%;
+    }
+    96% {
+        left: 0%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
